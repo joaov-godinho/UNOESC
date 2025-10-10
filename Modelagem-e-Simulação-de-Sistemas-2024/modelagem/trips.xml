@@ -1,0 +1,1 @@
+python trip_generator.py --od_matrix od_matrix.csv --output trips.trips.xml

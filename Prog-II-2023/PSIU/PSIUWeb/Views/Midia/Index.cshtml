@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Midia>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            Midias
+                        </h3>
+                    </div>
+                    <div class="card-body">
+
+                        <a asp-controller="Midia" asp-action="Insert">
+                            Inclui novo
+                        </a>
+
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>@Html.DisplayNameFor(model => model.Id)</th>
+                                    <th>@Html.DisplayNameFor(model => model.Url)</th>
+                                    <th>@Html.DisplayNameFor(model => model.TypeMidia)</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var m in Model)
+                                {
+                                    <tr>
+                                        <td>@m.Id</td>
+                                        <td>@m.Url</td>
+                                        <td>@m.TypeMidia</td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <a asp-controller="Midia"
+                                                       asp-action="Edit"
+                                                       asp-route-id="@m.Id">
+                                                        Editar
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a asp-controller="Midia"
+                                                       asp-action="Delete"
+                                                       asp-route-id="@m.Id">
+                                                        Excluir
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

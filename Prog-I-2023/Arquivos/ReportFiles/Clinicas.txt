@@ -1,0 +1,2 @@
+1;PetVet;00.000.000/0001-01;Rua x, Videira - SC, Brasil;(49) 99970-7070
+2;Mundo Animal;00.000.000/0001-02;Rua y, Videira - SC, Brasil;(49) 99869-6969

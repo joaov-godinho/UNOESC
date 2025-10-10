@@ -1,0 +1,4 @@
+1;João Vitor;Godinho;000.000.000-00;joaovitor.godinho@unoesc.edu.br
+2;Mauricio Roberto;Gonzatto;000.000.000-01;mauricio.gonzatto@unoesc.edu.br
+3;Fulano;Silva;000.000.000-02;fulano.silva@unoesc.edu.br
+4;Jorge;Jorginho;000-000-000-04;jorge.jorginho@outlook.com

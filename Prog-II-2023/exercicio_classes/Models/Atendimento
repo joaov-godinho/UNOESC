@@ -1,0 +1,23 @@
+public class Atendimento
+{
+    public DateTime Data_Hora {get;set}
+    public Animal animal {get;set;}
+    public Veterinario veterinario {get;set;}
+    public string observacao {get;set;}
+
+    public Atendimento()
+    {
+
+    }
+
+    public void Salvar()
+    {
+
+    }
+
+    public void Retornar()
+    {
+        
+    }
+
+}
