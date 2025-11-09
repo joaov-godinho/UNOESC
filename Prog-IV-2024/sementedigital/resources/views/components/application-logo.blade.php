@@ -1,0 +1,1 @@
+<img src="https://cdn-icons-png.flaticon.com/512/7963/7963836.png" width="45" height="6"/>
